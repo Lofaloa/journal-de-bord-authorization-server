@@ -110,7 +110,7 @@
     <properties>
         <!-- non-dependencies -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>12</java.version>
+        <java.version>13</java.version>
         <keycloak.version>10.0.1</keycloak.version>
         <resteasy.version>3.11.2.Final</resteasy.version>
     </properties>

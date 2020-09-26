@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="journal-de-bord-authorization-server" target="12" />
+      <module name="journal-de-bord-authorization-server" target="13" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

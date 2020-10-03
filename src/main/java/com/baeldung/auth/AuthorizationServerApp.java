@@ -20,6 +20,8 @@ public class AuthorizationServerApp {
 	private static final Logger LOG = LoggerFactory.getLogger(AuthorizationServerApp.class);
 
 	public static void main(String[] args) throws Exception {
+		// Necessary to let the server know where the "custom" theme is located
+		System.setProperty("keycloak.theme.dir","src/main/resources/themes");
 		SpringApplication.run(AuthorizationServerApp.class, args);
 	}
 

@@ -1,0 +1,47 @@
+.kc-appbar {
+    background-color: #3f51b5;
+    max-height: 56px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 10vh;
+}
+
+#kc-page {
+    overflow-y: auto;
+    height: 90vh;
+}
+
+#kc-page-title-divider {
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+#kc-content {
+    margin-top: 16px;
+}
+
+#kc-login-button, #kc-register-button {
+    background-color: #3f51b5;
+    color: white;
+}
+
+#kc-register-message {
+    color: black;
+}
+
+#kc-form-buttons, #kc-registration {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+#kc-social-providers {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
